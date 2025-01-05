@@ -16,7 +16,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:3000', // Adjust this to your frontend URL
+  origin: 'https://friendfront.vercel.app', // Ensure this matches your frontend URL
   credentials: true,
 }));
 app.use(helmet());
